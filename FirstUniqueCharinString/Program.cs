@@ -31,9 +31,9 @@ namespace FirstUniqueCharinString
             string s = "leetcode";
             string s2 = "loveleetcode";
             var result = FirstUniqueChar(s);
-            //var result2 = FirstUniqueChar(s2);
+            var result2 = FirstUniqueChar(s2);
             Console.WriteLine(result);
-            //Console.WriteLine("result is {0}, {1}",result,result2);
+            Console.WriteLine("result is {0}, {1}",result,result2);
         }
     }
 }
