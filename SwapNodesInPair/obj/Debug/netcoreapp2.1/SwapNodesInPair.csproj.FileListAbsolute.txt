@@ -1,0 +1,11 @@
+D:\Ktian\SwapNodesInPair\bin\Debug\netcoreapp2.1\SwapNodesInPair.deps.json
+D:\Ktian\SwapNodesInPair\bin\Debug\netcoreapp2.1\SwapNodesInPair.runtimeconfig.json
+D:\Ktian\SwapNodesInPair\bin\Debug\netcoreapp2.1\SwapNodesInPair.runtimeconfig.dev.json
+D:\Ktian\SwapNodesInPair\bin\Debug\netcoreapp2.1\SwapNodesInPair.dll
+D:\Ktian\SwapNodesInPair\bin\Debug\netcoreapp2.1\SwapNodesInPair.pdb
+D:\Ktian\SwapNodesInPair\obj\Debug\netcoreapp2.1\SwapNodesInPair.csprojAssemblyReference.cache
+D:\Ktian\SwapNodesInPair\obj\Debug\netcoreapp2.1\SwapNodesInPair.csproj.CoreCompileInputs.cache
+D:\Ktian\SwapNodesInPair\obj\Debug\netcoreapp2.1\SwapNodesInPair.AssemblyInfoInputs.cache
+D:\Ktian\SwapNodesInPair\obj\Debug\netcoreapp2.1\SwapNodesInPair.AssemblyInfo.cs
+D:\Ktian\SwapNodesInPair\obj\Debug\netcoreapp2.1\SwapNodesInPair.dll
+D:\Ktian\SwapNodesInPair\obj\Debug\netcoreapp2.1\SwapNodesInPair.pdb

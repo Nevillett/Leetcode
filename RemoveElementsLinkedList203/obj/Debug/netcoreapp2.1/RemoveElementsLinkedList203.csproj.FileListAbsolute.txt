@@ -1,0 +1,11 @@
+D:\Ktian\blablaCode\RemoveElementsLinkedList203\bin\Debug\netcoreapp2.1\RemoveElementsLinkedList203.deps.json
+D:\Ktian\blablaCode\RemoveElementsLinkedList203\bin\Debug\netcoreapp2.1\RemoveElementsLinkedList203.runtimeconfig.json
+D:\Ktian\blablaCode\RemoveElementsLinkedList203\bin\Debug\netcoreapp2.1\RemoveElementsLinkedList203.runtimeconfig.dev.json
+D:\Ktian\blablaCode\RemoveElementsLinkedList203\bin\Debug\netcoreapp2.1\RemoveElementsLinkedList203.dll
+D:\Ktian\blablaCode\RemoveElementsLinkedList203\bin\Debug\netcoreapp2.1\RemoveElementsLinkedList203.pdb
+D:\Ktian\blablaCode\RemoveElementsLinkedList203\obj\Debug\netcoreapp2.1\RemoveElementsLinkedList203.csprojAssemblyReference.cache
+D:\Ktian\blablaCode\RemoveElementsLinkedList203\obj\Debug\netcoreapp2.1\RemoveElementsLinkedList203.csproj.CoreCompileInputs.cache
+D:\Ktian\blablaCode\RemoveElementsLinkedList203\obj\Debug\netcoreapp2.1\RemoveElementsLinkedList203.AssemblyInfoInputs.cache
+D:\Ktian\blablaCode\RemoveElementsLinkedList203\obj\Debug\netcoreapp2.1\RemoveElementsLinkedList203.AssemblyInfo.cs
+D:\Ktian\blablaCode\RemoveElementsLinkedList203\obj\Debug\netcoreapp2.1\RemoveElementsLinkedList203.dll
+D:\Ktian\blablaCode\RemoveElementsLinkedList203\obj\Debug\netcoreapp2.1\RemoveElementsLinkedList203.pdb

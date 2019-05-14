@@ -1,0 +1,11 @@
+D:\Ktian\blablaCode\FirstUniqueCharinString\obj\Debug\netcoreapp2.1\FirstUniqueCharinString.csprojAssemblyReference.cache
+D:\Ktian\blablaCode\FirstUniqueCharinString\obj\Debug\netcoreapp2.1\FirstUniqueCharinString.csproj.CoreCompileInputs.cache
+D:\Ktian\blablaCode\FirstUniqueCharinString\obj\Debug\netcoreapp2.1\FirstUniqueCharinString.AssemblyInfoInputs.cache
+D:\Ktian\blablaCode\FirstUniqueCharinString\obj\Debug\netcoreapp2.1\FirstUniqueCharinString.AssemblyInfo.cs
+D:\Ktian\blablaCode\FirstUniqueCharinString\bin\Debug\netcoreapp2.1\FirstUniqueCharinString.deps.json
+D:\Ktian\blablaCode\FirstUniqueCharinString\bin\Debug\netcoreapp2.1\FirstUniqueCharinString.runtimeconfig.json
+D:\Ktian\blablaCode\FirstUniqueCharinString\bin\Debug\netcoreapp2.1\FirstUniqueCharinString.runtimeconfig.dev.json
+D:\Ktian\blablaCode\FirstUniqueCharinString\bin\Debug\netcoreapp2.1\FirstUniqueCharinString.dll
+D:\Ktian\blablaCode\FirstUniqueCharinString\bin\Debug\netcoreapp2.1\FirstUniqueCharinString.pdb
+D:\Ktian\blablaCode\FirstUniqueCharinString\obj\Debug\netcoreapp2.1\FirstUniqueCharinString.dll
+D:\Ktian\blablaCode\FirstUniqueCharinString\obj\Debug\netcoreapp2.1\FirstUniqueCharinString.pdb

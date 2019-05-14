@@ -1,0 +1,11 @@
+D:\Ktian\blablaCode\DeleteNode\obj\Debug\netcoreapp2.1\DeleteNode.csprojAssemblyReference.cache
+D:\Ktian\blablaCode\DeleteNode\obj\Debug\netcoreapp2.1\DeleteNode.csproj.CoreCompileInputs.cache
+D:\Ktian\blablaCode\DeleteNode\obj\Debug\netcoreapp2.1\DeleteNode.AssemblyInfoInputs.cache
+D:\Ktian\blablaCode\DeleteNode\obj\Debug\netcoreapp2.1\DeleteNode.AssemblyInfo.cs
+D:\Ktian\blablaCode\DeleteNode\bin\Debug\netcoreapp2.1\DeleteNode.deps.json
+D:\Ktian\blablaCode\DeleteNode\bin\Debug\netcoreapp2.1\DeleteNode.runtimeconfig.json
+D:\Ktian\blablaCode\DeleteNode\bin\Debug\netcoreapp2.1\DeleteNode.runtimeconfig.dev.json
+D:\Ktian\blablaCode\DeleteNode\bin\Debug\netcoreapp2.1\DeleteNode.dll
+D:\Ktian\blablaCode\DeleteNode\bin\Debug\netcoreapp2.1\DeleteNode.pdb
+D:\Ktian\blablaCode\DeleteNode\obj\Debug\netcoreapp2.1\DeleteNode.dll
+D:\Ktian\blablaCode\DeleteNode\obj\Debug\netcoreapp2.1\DeleteNode.pdb
