@@ -28,22 +28,52 @@ namespace _205_Isomorphic_strings
             }   
             return true;
         }
+        // solution2 : from grandyang
+        public static bool isIsomorphic2(string s, string t) {
+            int[] m1 = new int[256];
+            int[] m2 = new int[256];
+            for (int i = 0; i < s.Length; i++) {
+                if (m1[s[i]] != m2[t[i]]) return false;
+                m1[s[i]] = i + 1;                
+                m2[t[i]] = i + 1;                  
+                //printArray(m1);
+            }
 
-        // public static void testDic()
-        // {
-        //     Dictionary<char, int> hs = new Dictionary<char,int>();
-        //     hs.Add('a', 1);
-        //     Console.WriteLine(string.Join(",", hs)); 
-        //     hs['a']++;
-        //     Console.WriteLine(string.Join(",", hs));            
-        // }
+            return true;
+        }
+        public static void printArray(int[] m) {
+            foreach (var item in m) {
+                Console.Write(item);
+            }
+            Console.WriteLine();
+        }     
+
+//test dictionary   
+        public static void testDic()
+        {
+            Dictionary<char, int> hs = new Dictionary<char,int>();
+            hs.Add('a', 1);
+            Console.WriteLine(string.Join(",", hs)); 
+            hs['a']++;
+            Console.WriteLine(string.Join(",", hs));            
+        }
+// assign char to an int variable ascii; internally C# converts the character to ASCII value;
+        public static void testASCII() {
+            int[] intArray = new int[256];
+            int x = 'A';
+            Console.WriteLine(x);
+            intArray['a'] = 2;
+            foreach(var item in intArray)
+            {Console.Write(item);}
+        }
         static void Main(string[] args)
         {
             //testDic();
+            //testASCII();
 
             string s = "title";
             string t = "paper";
-            var result = isIsomorphic(s, t);
+            var result = isIsomorphic2(s, t);
             
             Console.WriteLine(result);
         }
