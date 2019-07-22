@@ -32,13 +32,31 @@ namespace _290_Word_Pattern
                 return false;
             }
             return true;            
-        }        
+        }
+
+        // solution 2: use one dictionary
+        public static bool wordPattern2(string pattern, string str) {
+            string[] words = str.Split(" ");
+            Dictionary<char, string> map = new Dictionary<char, string>();
+            if (pattern.Length != words.Length) return false;
+
+            for (int i = 0; i < pattern.Length; i++) {
+                if (map.ContainsKey(pattern[i])) {
+                    if (map[pattern[i]] != words[i]) return false;
+                } else if (map.ContainsValue(words[i])) return false;
+                else map.Add(pattern[i], words[i]); // or: map[pattern[i]] = words[i];
+            }
+            return true;
+        }
         static void Main(string[] args)
         {
             string pattern = "abba";
             string str = "dog cat cat dog";
             var result = wordPattern(pattern, str);
             Console.WriteLine(result);
+            string str2 = "dog dog dog dog";  // this case is for --map.ContainsValue(words[i]) return false--;
+            var result2 = wordPattern2(pattern, str2);
+            Console.WriteLine(result2);
         }
     }
 }
