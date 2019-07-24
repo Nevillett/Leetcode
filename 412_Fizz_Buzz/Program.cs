@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace _412_Fizz_Buzz
 {    
@@ -26,6 +27,8 @@ namespace _412_Fizz_Buzz
             // string.Join() display all the item in the list
             Console.WriteLine(string.Join(",", result));   
             FizBuz3();
+            var x = Enumerable.Range(1,100).ToArray();
+            Console.WriteLine(string.Join(" ", x));
         }
 
 
