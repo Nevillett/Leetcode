@@ -37,6 +37,17 @@ namespace _94_BinaryTReeInorderTraversal
             }
             return list;
         }
+        // Recursive
+        public static IList<string> Inorder_Traversal(TreeNode tree, IList<string> list)
+        {
+            if (tree != null)
+            {
+                Inorder_Traversal(tree.left, list);
+                list.Add(tree.val);
+                Inorder_Traversal(tree.right, list);
+            }
+            return list;            
+        }
         public static TreeNode build()
         {
             TreeNode tree = new TreeNode("F");
@@ -54,7 +65,11 @@ namespace _94_BinaryTReeInorderTraversal
         static void Main(string[] args)
         {
             var tree = build();
-            var result = InorderTraversal(tree);
+            var lst = new List<string>();
+            var result = Inorder_Traversal(tree, lst);
+            //var result = InorderTraversal(tree);
+
+            
 
             foreach( var item in result)
             {
@@ -65,5 +80,13 @@ namespace _94_BinaryTReeInorderTraversal
     }
 }
 
-
-// Inorder: left -> root -> right
+/*
+Inorder: left -> root -> right
+               F
+             /   \
+            B     G 
+           / \     \
+          A   D     I
+             / \   /
+            C   E  H
+*/
