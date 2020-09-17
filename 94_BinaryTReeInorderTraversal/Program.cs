@@ -3,19 +3,19 @@ using System.Collections.Generic;
 
 namespace _94_BinaryTReeInorderTraversal
 {
+    class TreeNode
+    {
+        public string val;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(string val)
+        {
+            this.val = val;
+            this.left = this.right = null;
+        }
+    }
     class Program
     {
-        public class TreeNode
-        {
-            public string val;
-            public TreeNode left;
-            public TreeNode right;
-            public TreeNode(string val)
-            {
-                this.val = val;
-                this.left = this.right = null;
-            }
-        }
         public static IList<string> InorderTraversal(TreeNode tree)
         {           
             Stack<TreeNode> stk = new Stack<TreeNode>();
@@ -37,17 +37,6 @@ namespace _94_BinaryTReeInorderTraversal
             }
             return list;
         }
-        // Recursive
-        public static IList<string> Inorder_Traversal(TreeNode tree, IList<string> list)
-        {
-            if (tree != null)
-            {
-                Inorder_Traversal(tree.left, list);
-                list.Add(tree.val);
-                Inorder_Traversal(tree.right, list);
-            }
-            return list;            
-        }
         public static TreeNode build()
         {
             TreeNode tree = new TreeNode("F");
@@ -66,7 +55,9 @@ namespace _94_BinaryTReeInorderTraversal
         {
             var tree = build();
             var lst = new List<string>();
-            var result = Inorder_Traversal(tree, lst);
+            var result = Solution2.Inorder_Traversal(tree, lst);
+            //var result = Solution2.Inorder_Traversal2(tree, lst);
+            
             //var result = InorderTraversal(tree);
 
             
