@@ -51,7 +51,10 @@ namespace _144._2_BinaryTreePreorderTraversal
         static void Main(string[] args)
         {
             var tree = buikdTree();
-            var result = PreorderTraversal(tree);
+            //var result = PreorderTraversal(tree);
+            // Recursive way:
+            var lst = new List<string>();
+            var result = Solution2.Preorder_Traversal(tree, lst);
 
             foreach( var item in result)
             {
